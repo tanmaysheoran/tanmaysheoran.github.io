@@ -15,7 +15,9 @@ a {
   font-size: 35px;
   padding-left: 20px;
 }
-
+.contact:hover {
+  color: rgb(221, 15, 118);
+}
 .contact_item {
   display: inline-block;
   padding-bottom: 3.5%;
