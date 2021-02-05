@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(244, 247, 250);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.contact {
+  font-family: Red Hat Display;
+  font-weight: 100;
+  font-size: 35px;
+  padding-left: 20px;
+}
+
+.contact_item {
+  display: inline-block;
+  padding-bottom: 3.5%;
+}
+.subheading {
+  color: black;
+  font-family: ;
+  font-weight: lighter;
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+h1 {
+  color: black;
+  font-family: Red Hat Display;
+  font-weight: bold;
+  font-size: 95px;
+  text-align: center;
+}
+
+.navigation {
+  color: black;
+  font-family: Red Hat Display;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  top: 0;
+  align-self: center;
+  width: 100%;
+}
+
+.nav_item {
+  display: inline-block;
+  padding-right: 4%;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.link:hover {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 1000% 1000%;
+  animation: gradient 5s ease infinite;
+  -webkit-background-clip: content-box;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
