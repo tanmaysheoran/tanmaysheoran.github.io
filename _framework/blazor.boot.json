@@ -187,7 +187,7 @@
       "Microsoft.JSInterop.dll": "sha256-qPIvEaHuBRFKLKbFwUK34ATZV69kdVFC+lzKmpVMxpQ=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-PotMOSV6NCm1RFdQpG4oXzBipnkMHmHEr\/7e4q90k5k=",
       "System.IO.Pipelines.dll": "sha256-3ET+mpR7F058YRj9YaLHOVXBqOW6iUxtIpeiKPYw4PA=",
-      "BlazorPersonalWebsite.dll": "sha256-BshmBL5YKngiHBoDSduQz78b1F2IRtAcUba1rkqg7gw="
+      "BlazorPersonalWebsite.dll": "sha256-jjHlvu+Yo8V8T99hUMvs5Yc663Ookbg5mM6j5JGbUcg="
     },
     "lazyAssembly": null,
     "pdb": null,
