@@ -1,6 +1,10 @@
 /* /Pages/Index.razor.rz.scp.css */
 body[b-2f13rbqjya] {
 }
+a[b-2f13rbqjya]{
+    text-decoration: none;
+    color: white;
+}
 
 h1[b-2f13rbqjya] {
     font-family: Red Hat Display;
@@ -8,6 +12,45 @@ h1[b-2f13rbqjya] {
     font-size: 95px;
     text-align: center;
     padding-top: 30vh;
+}
+.navigation[b-2f13rbqjya] {
+    color: black;
+    font-family: Red Hat Display;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    top: 0;
+    align-self: center;
+    width: 100%;
+}
+
+.nav_item[b-2f13rbqjya] {
+    display: inline-block;
+    padding-right: 4%;
+}
+
+a:hover[b-2f13rbqjya] {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 1000% 1000%;
+    animation: gradient-b-2f13rbqjya 5s ease infinite;
+    -webkit-background-clip: content-box;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+@keyframes gradient-b-2f13rbqjya {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-6fwtvo9gkh] {
@@ -78,49 +121,5 @@ h1[b-2f13rbqjya] {
     .main > div[b-6fwtvo9gkh] {
         padding-left: 2rem !important;
         padding-right: 1.5rem !important;
-    }
-}
-/* /Shared/NavMenu.razor.rz.scp.css */
-a[b-ybg8fw7wms] {
-    text-decoration: none;
-    color: white;
-}
-
-.navigation[b-ybg8fw7wms] {
-    color: black;
-    font-family: Red Hat Display;
-    font-weight: bold;
-    font-size: 30px;
-    text-align: center;
-    top: 0;
-    align-self: center;
-    width: 100%;
-}
-.nav_item[b-ybg8fw7wms] {
-    display: inline-block;
-    padding-right: 4%;
-}
-
-.link:hover[b-ybg8fw7wms] {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 1000% 1000%;
-    animation: gradient-b-ybg8fw7wms 5s ease infinite;
-    -webkit-background-clip: content-box;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-}
-
-@keyframes gradient-b-ybg8fw7wms {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
     }
 }
