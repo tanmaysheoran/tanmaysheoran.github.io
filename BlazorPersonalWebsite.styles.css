@@ -52,6 +52,11 @@ a:hover[b-2f13rbqjya] {
         background-position: 0% 50%;
     }
 }
+/* /Pages/Resume.razor.rz.scp.css */
+.resumeLink[b-x4625yh6at]{
+    width: 95vw;
+    height: 88vh;
+}
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-6fwtvo9gkh] {
     position: relative;
@@ -121,5 +126,124 @@ a:hover[b-2f13rbqjya] {
     .main > div[b-6fwtvo9gkh] {
         padding-left: 2rem !important;
         padding-right: 1.5rem !important;
+    }
+}
+/* /Shared/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-ybg8fw7wms] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-ybg8fw7wms] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-ybg8fw7wms] {
+    font-size: 1.1rem;
+}
+
+.oi[b-ybg8fw7wms] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-ybg8fw7wms] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-ybg8fw7wms] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-ybg8fw7wms] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-ybg8fw7wms]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-ybg8fw7wms]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-ybg8fw7wms]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-ybg8fw7wms] {
+        display: none;
+    }
+
+    .collapse[b-ybg8fw7wms] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+}
+
+body[b-ybg8fw7wms] {
+}
+
+a[b-ybg8fw7wms] {
+    text-decoration: none;
+    color: white;
+}
+
+h1[b-ybg8fw7wms] {
+    font-family: Red Hat Display;
+    font-weight: bold;
+    font-size: 95px;
+    text-align: center;
+    padding-top: 30vh;
+}
+
+.navigation[b-ybg8fw7wms] {
+    color: black;
+    font-family: Red Hat Display;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    top: 0;
+    align-self: center;
+    width: 100%;
+}
+
+.nav_item[b-ybg8fw7wms] {
+    display: inline-block;
+    padding-right: 4%;
+}
+
+a:hover[b-ybg8fw7wms] {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 1000% 1000%;
+    animation: gradient-b-ybg8fw7wms 5s ease infinite;
+    -webkit-background-clip: content-box;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+@keyframes gradient-b-ybg8fw7wms {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
     }
 }
